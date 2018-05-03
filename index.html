@@ -1,0 +1,51 @@
+<!doctype <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Crystal Collector</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/javascript/game.js"></script>
+</head>
+<body>
+    <div class="row">
+        <div class="col-md-3">
+    <h2 class="bg-black text-danger">Crystal Collector</h2>
+    </div>
+    </div>
+    <div class="row">
+    <div class="col-md-6">
+          
+                <div class="text-left text-danger">Welcome to the Crystal collector game! The goal of the game is to collect crystals with different 
+                    values to achieve the number goal required! Each crystal has a random value. Use basic math to find a way to reach the total! Click on a crystal to figure out the value! Good luck!</div>
+                </div>
+                <div id="crystals">
+                    <input type="image" id="gem1" class="float-left" value="3" src="https://rebornix.gallerycdn.vsassets.io/extensions/rebornix/ruby/0.18.0/1523397294573/Microsoft.VisualStudio.Services.Icons.Default" width="200px" height="200px"/>
+                    <input type="image" id="gem2" class="float-left" value="5" src="https://cdn.shopify.com/s/files/1/0746/9565/products/image_7d5c51fb-cc2d-4752-9865-91cc474e2afb.png?v=1509227089" width="200px" height="200px"/>
+                    <input type="image" id="gem3" class="float-left" value="7" src="https://vignette.wikia.nocookie.net/steven-universe/images/2/23/Topaz_real_life_gemstone.png/revision/latest?cb=20170509171933" width="200px" height="200px"/>
+                    <input type="image" id="gem4" class="float-left" value="10" src="https://cdn.shopify.com/s/files/1/2028/9685/files/Rose-dropdown_large.png?13501239336935063506" width="200px" height="200px"/>
+                </div>
+        </div>
+    </div>
+</div>
+    <div class="row">
+        <div class="jumbotron">
+        <div class="col-md-3">
+            <h2 class="text-danger text-left"> Wins:
+                <span id="wins"></span> </h2>
+            <h2 class="text-danger"> Losses:
+                <span id="losses"></span> </h2>
+            <h2 class="text-danger">Target: 
+                <span id="goal"></span>
+            </h2>
+            <h2 class="text-danger">Current Score: 
+                <span id="currentscore"></span>
+            </h2>
+        </div>
+    </div>
+    </div>
+                </body>
+</html>
